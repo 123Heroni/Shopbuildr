@@ -447,8 +447,9 @@ Pricing Section
 
 .pricing-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
     gap: 2rem;
+    justify-content: center;
     padding: 2rem;
 }
 
